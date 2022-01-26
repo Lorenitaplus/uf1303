@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
 }
 
-/* banner, portada de articulo */
+/* Imagen banner, portada de articulo */
 header.portada {
     width: 100%;
     height: 50vh;
@@ -40,4 +40,96 @@ header.portada h2 {
     text-align: center;
     background-color: rgba(0,0,0.0.6)
     color: #ffffff
+}
+
+
+/*Imagenes validadores */
+
+figure.w3c.css {
+    background-image: url('../svg/w3c/css.svg')
+}
+
+figure.w3c.wcag {
+    background-image: url('../svg/w3c/wcag.svg')
+}
+
+figure.w3c.html5 {
+    background-image: url ('../svg/w3c/html5.svg')
+}
+figure.w3c {
+    width: 88px;
+    height: 31px;
+}
+
+
+/* Maquetación */
+
+body main section {
+    padding: 5vw;
+}
+
+/* Estilos para textos */
+
+/* Tamaño de los textos  */
+html, body {
+    font-size: 16px;
+}
+
+h1 { font-size: 0.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.1em; }
+
+/* Familia y colores de los textos */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", "Arial Bold", serif;
+    text-transform: capitalize;
+    /* color genérico */
+    color: #557714;
+}
+
+
+p, a, li, strong, em, span, figcaption, q, blockquote {
+    font-family: "Monserrat", Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+    /* color genérico */
+    color: #666666;
+}
+
+/* Interlineado */
+p {
+    line-height: 1.5;
+}
+
+/* colores específicos */
+h2, strong {
+    color: #AA3C39;
+}
+
+a {
+    font-weight: bold;
+    color: #557714;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
+/* Estilos para los párrafos "Nota" */
+
+p.nota {
+    padding: 1em;
+    background-color: aliceblue;
+    border-left: 0.25em solid darkblue;
+    border-radius: 5px;
+}
+
+footer {
+    background: black;
+
+    
 }
