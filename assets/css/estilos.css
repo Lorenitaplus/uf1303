@@ -35,12 +35,13 @@ header.portada h2 {
     top: 40%;
     left: 0%;
     width: 100%;
-    margin 0;
+    margin: 0;
     padding: 1em 0;
     text-align: center;
-    background-color: rgba(0,0,0.0.6)
-    color: #ffffff
+    background-color: rgba(0,0, 0,0.6);
+    color: #ffffff;
 }
+
 
 /*Imagenes validadores */
 
@@ -60,7 +61,7 @@ figure.w3c.html5 {
 figure.w3c {
     width: 88px;
     height: 31px;
-    background-position: 50px 50;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -124,20 +125,43 @@ body main section {
 /* Estilos para textos */
 
 /* Tamaño de los textos  */
-html, body {
+html,
+body {
     font-size: 16px;
 }
 
-h1 { font-size: 0.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.6em; }
-h5 { font-size: 1.5em; }
-h6 { font-size: 1.1em; }
+h1 {
+    font-size: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
 
 /* Familia y colores de los textos */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "DM Serif Display", "Arial Bold", serif;
     text-transform: capitalize;
     /* color genérico */
@@ -145,7 +169,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p, a, li, strong, em, span, figcaption, q, blockquote {
+p,
+a,
+li,
+strong,
+em,
+span,
+figcaption,
+q,
+blockquote {
     font-family: "Monserrat", Verdana, Helvetica, sans-serif;
     font-size: 1em;
     /* color genérico */
@@ -158,7 +190,8 @@ p {
 }
 
 /* colores específicos */
-h2, strong {
+h2,
+strong {
     color: #AA3C39;
 }
 
@@ -181,10 +214,74 @@ p.nota {
     border-radius: 5px;
 }
 
-footer {
-    background: black;    
+
+/*ESTILOS PARA EL FOOTER*/
+
+/*fondo negro*/
+body > footer {
+    background: black;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-footer section h2 {
+/*quitar estilos de lista */
+body > footer li {
+    list-style: none;
+}
+
+/*covertir en elementos en línea */
+body > footer li.validator,
+body > footer li.legal {
+    display: inline-block;
+    font-size: small;
+}
+
+/*reducir iconos validadores*/
+figure.w3c {
+    width: 5vw;
+    height: 1.76vw;
+    margin: 0.5em;
+}
+
+/*poner el mismo márgen que los figures validadores*/
+li.legal a {
+    margin: 0.5em;
+}
+
+li.legal,
+li.legal a {
+    height: 4em;
+    line-height: 4em;
+}
+
+/*textos en color blanco */
+body > footer h2,
+body > footer li a,
+body > footer li a span {
     color: white;
+}
+
+/*no mostrar el h2 del footer del sitio*/
+footer section.footer__pie h2 {
+    display: none;
+}
+
+/*logotipo de footer*/
+section.contentinfo a.pattern figure {
+    width: 20vw;
+    height: 13.32vw;
+    background-image: url('../svg/logo.svg');
+    background-position: 50p% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.contentinfo a.pattern {
+    width: 40%;
+}
+
+div[role="group"] {
+    width: 40%;
 }
