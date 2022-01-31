@@ -1,0 +1,23 @@
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border: 3px solid black;
+}
+
+td {
+	border: 2px solid black;
+}
+
+td.celda1,
+td.celda5,
+td.celda9 {
+	color: blue;
+	background-color: yellow;
+}
+
+td:last-of-type {
+	color: red;
+	background-color: dimgrey;
+}
