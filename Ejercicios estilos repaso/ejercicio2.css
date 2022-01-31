@@ -1,10 +1,7 @@
 table {
 	border-collapse: collapse;
-}
-
-tr {
-	border: 3px solid black;
-}
+    border: 3px solid black;    
+     }
 
 td {
 	border: 2px solid black;
@@ -19,5 +16,5 @@ td.celda9 {
 
 td:last-of-type {
 	color: red;
-	background-color: dimgrey;
+	background-color: grey;
 }
