@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+	background-color: blue;
+}
+
+td.pink {
+	background-color: pink;
+}
+
+td.grey {
+	background-color: grey;
+}
