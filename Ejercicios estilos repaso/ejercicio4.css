@@ -1,11 +1,40 @@
 @media (max-width: 768px) {
-	background-color: blue;
+	body {
+		background-color: lime;
+	}
+	
+	
+footer.caja3 ul li a {
+	font-style: normal;
+
 }
 
-td.pink {
-	background-color: pink;
-}
 
-td.grey {
-	background-color: grey;
+
+@media (min-width:  768px) {
+	body {
+		background-color: aqua;
+	}
+
+	article.parrafos {
+		text-align: center;
+	}
+
+	p.caja1,
+	p.caja2 {
+		display: inline-block;
+		width: 40%;
+		margin: 1em;
+		/*margin para que no se peguen*/
+	}
+
+	footer.caja3 ul {
+		text-align: center;
+	}
+
+	footer.caja3 ul li {
+		display: inline-block;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	} 
 }
