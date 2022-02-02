@@ -1,40 +1,64 @@
-@media (max-width: 768px) {
-	body {
-		background-color: lime;
-	}
-	
-	
-footer.caja3 ul li a {
-	font-style: normal;
+h2, p {
+    text-align: center;
+}
 
+p.caja1,
+p.caja2 {
+    text-align: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+p.caja1 {
+    background-color: pink;
+    height: 100px;
+}
+
+p.caja2 {
+    background-color: grey;
+    height: 200px;
+}
+
+footer.contacto {
+    background-color: black;
+}
+
+footer.contacto ul {
+    list-style: none;
+}
+
+footer.contacto ul li {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: aqua;
+    }
+
+    article.parrafos {
+        text-align: center;
+    }
+
+    p.columna1,
+    p.columna2 {
+        display: inline-block;
+        width: 40%;
+        margin: 1em;
+        /* margin: 0 auto; */
+    }
+
+    footer.contacto ul {
+        text-align: center;
+    }
+
+    footer.contacto ul li {
+        display: inline-block;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
 }
 
 
-
-@media (min-width:  768px) {
-	body {
-		background-color: aqua;
-	}
-
-	article.parrafos {
-		text-align: center;
-	}
-
-	p.caja1,
-	p.caja2 {
-		display: inline-block;
-		width: 40%;
-		margin: 1em;
-		/*margin para que no se peguen*/
-	}
-
-	footer.caja3 ul {
-		text-align: center;
-	}
-
-	footer.caja3 ul li {
-		display: inline-block;
-		margin-left: 0.5em;
-		margin-right: 0.5em;
-	} 
-}
